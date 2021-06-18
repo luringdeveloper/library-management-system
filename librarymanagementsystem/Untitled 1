@@ -1,0 +1,42 @@
+  txtAnswer.addKeyListener(new KeyAdapter() {
+        @Override
+        public void keyPressed(KeyEvent e) {
+
+            int key = e.getKeyCode();
+
+            /* Restrict input to only integers */
+            if (key < 96 && key > 105) e.setKeyChar('');
+        };
+    });
+    
+    
+    
+    //browse event start
+				btnBrowse.addActionListener(new ActionListener() {
+					public void actionPerformed(ActionEvent e) {
+						JFileChooser fileChooser=new JFileChooser();
+						fileChooser.setFileFilter(new FileNameExtensionFilter("Image File", "jpg"));				
+						int i=fileChooser.showOpenDialog(LibraryManagementSystem.this);
+						if(i==fileChooser.APPROVE_OPTION) {
+							File file=fileChooser.getSelectedFile();
+							
+							if(file.getAbsolutePath().endsWith(".jpg")||file.getAbsolutePath().endsWith(".png"))
+								textField_3.setText(file.getAbsolutePath());
+							
+							
+						}
+						
+					}
+				});
+				//browse event end
+			setBounds(100, 100, 799, 489);
+			
+			panel.setBackground(new Color(0.8f,0.8f,0.8f,0.4f));
+			
+			
+			panel.setBounds(243, 113, 315, 250);
+			
+			panel.setBounds(436, 98, 315, 250);
+			
+			
+		profilepasswordreset.setBounds(242, 126, 315, 277);
