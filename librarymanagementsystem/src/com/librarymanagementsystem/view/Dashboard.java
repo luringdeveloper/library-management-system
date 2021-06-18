@@ -242,7 +242,7 @@ public class Dashboard extends JFrame {
 		JLabel lblNewLabel_2_2 = new JLabel("");
 		lblNewLabel_2_2.setIcon(ImageResizer.resize(new ImageIcon(Dashboard.class.getResource("/com/librarymanagementsystem/images/addbook.png")), 58,71));
 		lblNewLabel_2_2.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_2_2.setBounds(10, 39, 58, 71);
+		lblNewLabel_2_2.setBounds(66, 39, 58, 71);
 		card5.add(lblNewLabel_2_2);
 		
 		JLabel lblNewLabel_1_2 = new JLabel("Add Book");
@@ -252,14 +252,6 @@ public class Dashboard extends JFrame {
 		lblNewLabel_1_2.setBorder(new MatteBorder(0, 0, 2, 0, (Color) new Color(47, 79, 79)));
 		lblNewLabel_1_2.setBounds(10, 142, 175, 44);
 		card5.add(lblNewLabel_1_2);
-		
-		JLabel lblNewLabel_8_1_2_1_3 = new JLabel("3000");
-		lblNewLabel_8_1_2_1_3.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_8_1_2_1_3.setForeground(Color.LIGHT_GRAY);
-		lblNewLabel_8_1_2_1_3.setFont(new Font("Arial Black", Font.BOLD, 30));
-		lblNewLabel_8_1_2_1_3.setBorder(new MatteBorder(0, 0, 2, 0, (Color) new Color(47, 79, 79)));
-		lblNewLabel_8_1_2_1_3.setBounds(80, 38, 105, 72);
-		card5.add(lblNewLabel_8_1_2_1_3);
 		
 		JPanel card1 = new RoundedPanel(); 
 		
@@ -284,7 +276,7 @@ public class Dashboard extends JFrame {
 		lblNewLabel_2.setBounds(10, 51, 58, 71);
 		card1.add(lblNewLabel_2);
 		
-		JLabel lblNewLabel_8 = new JLabel("3000");
+		JLabel lblNewLabel_8 = new JLabel("5500");
 		lblNewLabel_8.setForeground(Color.LIGHT_GRAY);
 		lblNewLabel_8.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel_8.setFont(new Font("Arial Black", Font.BOLD, 30));
@@ -312,7 +304,7 @@ public class Dashboard extends JFrame {
 		lblNewLabel_1_1.setBounds(10, 152, 175, 44);
 		card2.add(lblNewLabel_1_1);
 		
-		JLabel lblNewLabel_8_1 = new JLabel("3000");
+		JLabel lblNewLabel_8_1 = new JLabel("200");
 		lblNewLabel_8_1.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel_8_1.setForeground(Color.LIGHT_GRAY);
 		lblNewLabel_8_1.setFont(new Font("Arial Black", Font.BOLD, 30));
@@ -329,7 +321,7 @@ public class Dashboard extends JFrame {
 		JLabel lblNewLabel_2_2_1 = new JLabel("");
 		lblNewLabel_2_2_1.setIcon(ImageResizer.resize(new ImageIcon(Dashboard.class.getResource("/com/librarymanagementsystem/images/removebook.png")), 58,71));
 		lblNewLabel_2_2_1.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_2_2_1.setBounds(10, 39, 58, 71);
+		lblNewLabel_2_2_1.setBounds(70, 37, 58, 71);
 		card6.add(lblNewLabel_2_2_1);
 		
 		JLabel lblNewLabel_1_2_1 = new JLabel("Remove Book");
@@ -340,41 +332,33 @@ public class Dashboard extends JFrame {
 		lblNewLabel_1_2_1.setBounds(10, 142, 175, 44);
 		card6.add(lblNewLabel_1_2_1);
 		
-		JLabel lblNewLabel_8_1_2_1_2 = new JLabel("3000");
-		lblNewLabel_8_1_2_1_2.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_8_1_2_1_2.setForeground(Color.LIGHT_GRAY);
-		lblNewLabel_8_1_2_1_2.setFont(new Font("Arial Black", Font.BOLD, 30));
-		lblNewLabel_8_1_2_1_2.setBorder(new MatteBorder(0, 0, 2, 0, (Color) new Color(47, 79, 79)));
-		lblNewLabel_8_1_2_1_2.setBounds(80, 39, 105, 72);
-		card6.add(lblNewLabel_8_1_2_1_2);
-		
 		JPanel card3 = new RoundedPanel();
 		card3.setLayout(null);
 		card3.setBackground(new Color(32, 32, 32));
 		card3.setBounds(594, 44, 195, 235);
 		panel_4.add(card3);
 		
-		JLabel lblNewLabel_1_1_1 = new JLabel("Return Book");
+		JLabel lblNewLabel_1_1_1 = new JLabel("Books Not Return ");
 		lblNewLabel_1_1_1.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel_1_1_1.setForeground(Color.LIGHT_GRAY);
-		lblNewLabel_1_1_1.setFont(new Font("Tahoma", Font.BOLD, 20));
+		lblNewLabel_1_1_1.setFont(new Font("Tahoma", Font.BOLD, 18));
 		lblNewLabel_1_1_1.setBorder(new MatteBorder(0, 0, 2, 0, (Color) new Color(47, 79, 79)));
 		lblNewLabel_1_1_1.setBounds(10, 148, 175, 44);
 		card3.add(lblNewLabel_1_1_1);
 		
-		JLabel lblNewLabel_2_1_1 = new JLabel("");
-		lblNewLabel_2_1_1.setIcon(ImageResizer.resize(new ImageIcon(Dashboard.class.getResource("/com/librarymanagementsystem/images/returnbook.png")), 58,71));
-		lblNewLabel_2_1_1.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_2_1_1.setBounds(10, 45, 58, 71);
-		card3.add(lblNewLabel_2_1_1);
+		JLabel lblNewLabel_2_1_1_1 = new JLabel("");
+		lblNewLabel_2_1_1_1.setBounds(10, 48, 58, 71);
+		card3.add(lblNewLabel_2_1_1_1);
+		lblNewLabel_2_1_1_1.setIcon(ImageResizer.resize(new ImageIcon(Dashboard.class.getResource("/com/librarymanagementsystem/images/booknotreturn.png")), 58,71));
+		lblNewLabel_2_1_1_1.setHorizontalAlignment(SwingConstants.CENTER);
 		
-		JLabel lblNewLabel_8_1_1 = new JLabel("3000");
-		lblNewLabel_8_1_1.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_8_1_1.setForeground(Color.LIGHT_GRAY);
-		lblNewLabel_8_1_1.setFont(new Font("Arial Black", Font.BOLD, 30));
-		lblNewLabel_8_1_1.setBorder(new MatteBorder(0, 0, 2, 0, (Color) new Color(47, 79, 79)));
-		lblNewLabel_8_1_1.setBounds(78, 44, 105, 72);
-		card3.add(lblNewLabel_8_1_1);
+		JLabel lblNewLabel_8_1_2 = new JLabel("78");
+		lblNewLabel_8_1_2.setBounds(80, 48, 105, 72);
+		card3.add(lblNewLabel_8_1_2);
+		lblNewLabel_8_1_2.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel_8_1_2.setForeground(Color.LIGHT_GRAY);
+		lblNewLabel_8_1_2.setFont(new Font("Arial Black", Font.BOLD, 30));
+		lblNewLabel_8_1_2.setBorder(new MatteBorder(0, 0, 2, 0, (Color) new Color(47, 79, 79)));
 		
 		JPanel card7 = new RoundedPanel();
 		card7.setLayout(null);
@@ -393,16 +377,8 @@ public class Dashboard extends JFrame {
 		JLabel lblNewLabel_2_2_1_1 = new JLabel("");
 		lblNewLabel_2_2_1_1.setIcon(ImageResizer.resize(new ImageIcon(Dashboard.class.getResource("/com/librarymanagementsystem/images/sellbook.png")), 58,51));
 		lblNewLabel_2_2_1_1.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_2_2_1_1.setBounds(10, 58, 58, 51);
+		lblNewLabel_2_2_1_1.setBounds(68, 56, 58, 51);
 		card7.add(lblNewLabel_2_2_1_1);
-		
-		JLabel lblNewLabel_8_1_2_1_1 = new JLabel("3000");
-		lblNewLabel_8_1_2_1_1.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_8_1_2_1_1.setForeground(Color.LIGHT_GRAY);
-		lblNewLabel_8_1_2_1_1.setFont(new Font("Arial Black", Font.BOLD, 30));
-		lblNewLabel_8_1_2_1_1.setBorder(new MatteBorder(0, 0, 2, 0, (Color) new Color(47, 79, 79)));
-		lblNewLabel_8_1_2_1_1.setBounds(78, 37, 105, 72);
-		card7.add(lblNewLabel_8_1_2_1_1);
 		
 		JPanel card4 = new RoundedPanel();
 		card4.setLayout(null);
@@ -410,7 +386,7 @@ public class Dashboard extends JFrame {
 		card4.setBounds(851, 44, 195, 235);
 		panel_4.add(card4);
 		
-		JLabel lblNewLabel_1_1_1_1 = new JLabel("Book Not Return");
+		JLabel lblNewLabel_1_1_1_1 = new JLabel("Return Book");
 		lblNewLabel_1_1_1_1.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel_1_1_1_1.setForeground(Color.LIGHT_GRAY);
 		lblNewLabel_1_1_1_1.setFont(new Font("Tahoma", Font.BOLD, 20));
@@ -418,19 +394,11 @@ public class Dashboard extends JFrame {
 		lblNewLabel_1_1_1_1.setBounds(10, 146, 175, 44);
 		card4.add(lblNewLabel_1_1_1_1);
 		
-		JLabel lblNewLabel_2_1_1_1 = new JLabel("");
-		lblNewLabel_2_1_1_1.setIcon(ImageResizer.resize(new ImageIcon(Dashboard.class.getResource("/com/librarymanagementsystem/images/booknotreturn.png")), 58,71));
-		lblNewLabel_2_1_1_1.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_2_1_1_1.setBounds(10, 43, 58, 71);
-		card4.add(lblNewLabel_2_1_1_1);
-		
-		JLabel lblNewLabel_8_1_2 = new JLabel("3000");
-		lblNewLabel_8_1_2.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_8_1_2.setForeground(Color.LIGHT_GRAY);
-		lblNewLabel_8_1_2.setFont(new Font("Arial Black", Font.BOLD, 30));
-		lblNewLabel_8_1_2.setBorder(new MatteBorder(0, 0, 2, 0, (Color) new Color(47, 79, 79)));
-		lblNewLabel_8_1_2.setBounds(80, 43, 105, 72);
-		card4.add(lblNewLabel_8_1_2);
+		JLabel lblNewLabel_2_1_1 = new JLabel("");
+		lblNewLabel_2_1_1.setBounds(72, 40, 58, 71);
+		card4.add(lblNewLabel_2_1_1);
+		lblNewLabel_2_1_1.setIcon(ImageResizer.resize(new ImageIcon(Dashboard.class.getResource("/com/librarymanagementsystem/images/returnbook.png")), 58,71));
+		lblNewLabel_2_1_1.setHorizontalAlignment(SwingConstants.CENTER);
 		
 		JPanel card8 = new RoundedPanel();
 		card8.setLayout(null);
@@ -449,16 +417,8 @@ public class Dashboard extends JFrame {
 		JLabel lblNewLabel_2_2_1_1_1 = new JLabel("");
 		lblNewLabel_2_2_1_1_1.setIcon(ImageResizer.resize(new ImageIcon(Dashboard.class.getResource("/com/librarymanagementsystem/images/buybook.png")), 58,71));
 		lblNewLabel_2_2_1_1_1.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_2_2_1_1_1.setBounds(10, 36, 58, 71);
+		lblNewLabel_2_2_1_1_1.setBounds(67, 36, 58, 71);
 		card8.add(lblNewLabel_2_2_1_1_1);
-		
-		JLabel lblNewLabel_8_1_2_1 = new JLabel("3000");
-		lblNewLabel_8_1_2_1.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_8_1_2_1.setForeground(Color.LIGHT_GRAY);
-		lblNewLabel_8_1_2_1.setFont(new Font("Arial Black", Font.BOLD, 30));
-		lblNewLabel_8_1_2_1.setBorder(new MatteBorder(0, 0, 2, 0, (Color) new Color(47, 79, 79)));
-		lblNewLabel_8_1_2_1.setBounds(80, 35, 105, 72);
-		card8.add(lblNewLabel_8_1_2_1);
 		
 		
 		card1.addMouseListener(new MouseAdapter() {

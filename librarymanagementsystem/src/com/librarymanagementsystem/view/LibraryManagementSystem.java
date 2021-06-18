@@ -342,7 +342,7 @@ public class LibraryManagementSystem extends JFrame {
 		signupalternatepassword.setBounds(10, 368, 295, 30);
 		panel_1.add(signupalternatepassword);
 		
-		JLabel signuperror = new JLabel("Enter password");
+		JLabel signuperror = new JLabel("");
 		signuperror.setForeground(new Color(139, 0, 0));
 		signuperror.setFont(new Font("Serif", Font.BOLD, 15));
 		signuperror.setHorizontalAlignment(SwingConstants.CENTER);
@@ -405,7 +405,7 @@ public class LibraryManagementSystem extends JFrame {
 		textField_2.setBounds(0, 39, 315, 3);
 		panel.add(textField_2);
 		
-		JLabel loginerror = new JLabel("Enter password");
+		JLabel loginerror = new JLabel("");
 		loginerror.setHorizontalAlignment(SwingConstants.CENTER);
 		loginerror.setForeground(new Color(139, 0, 0));
 		loginerror.setFont(new Font("Serif", Font.BOLD, 15));
@@ -486,7 +486,7 @@ public class LibraryManagementSystem extends JFrame {
 		ppsap.setBounds(10, 152, 295, 30);
 		profilepasswordreset.add(ppsap);
 		
-		JLabel pprerror = new JLabel("Enter password");
+		JLabel pprerror = new JLabel("");
 		pprerror.setHorizontalAlignment(SwingConstants.CENTER);
 		pprerror.setForeground(new Color(139, 0, 0));
 		pprerror.setFont(new Font("Serif", Font.BOLD, 15));
